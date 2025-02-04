@@ -18,7 +18,7 @@
     "eslint": "8.56.0"
   },
   "scripts": {
-    "build": "swc -d dist src",
+    "build": "node init && swc -d dist src",
     "prepublishOnly": "cd ../../ && turbo run build"
   }
 }
