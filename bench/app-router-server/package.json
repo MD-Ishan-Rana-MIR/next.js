@@ -10,6 +10,6 @@
   },
   "scripts": {
     "build-application": "next build",
-    "start": "next-minimal-server"
+    "start": "node init && next-minimal-server"
   }
 }
