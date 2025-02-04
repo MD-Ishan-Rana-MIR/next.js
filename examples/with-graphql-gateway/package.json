@@ -2,9 +2,9 @@
   "private": true,
   "scripts": {
     "prestart": "yarn build:mesh",
-    "start": "next dev",
+    "start": "node init && next dev",
     "prebuild": "yarn build:mesh",
-    "build": "next build",
+    "build": "node init && next build",
     "start:prod": "next start",
     "build:mesh": "mesh build"
   },
