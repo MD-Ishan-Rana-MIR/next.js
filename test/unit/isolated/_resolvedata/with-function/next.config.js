@@ -1,7 +1,1 @@
-module.exports = (phase, { defaultConfig }) => {
-  return {
-    phase,
-    defaultConfig,
-    customConfig: true,
-  }
-}
+module.exports = (phase, { defaultConfig })
